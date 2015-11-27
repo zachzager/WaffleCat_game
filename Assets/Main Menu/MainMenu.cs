@@ -11,21 +11,22 @@ using System.Collections;
 public class MainMenu : MonoBehaviour {
 
 	public Texture backgroundTexture;
-	public float GUIplacementY;
-	public float GUIplacementX;
+	public Texture logo;
 	public GUIStyle startButton;
-	//public bool showGUIoutline = true;
-
 
 	void OnGUI () {
 
 		// Display background texture
 		GUI.DrawTexture(new Rect(0,0,Screen.width,Screen.height),backgroundTexture);
 
+		// Logo
+		GUI.DrawTexture (new Rect (Screen.width * .2f, Screen.height * .025f, 
+		                         Screen.width * .6f, Screen.height * .6f), logo);
+
 										/* buttons */
 		// Play Game
-		if (GUI.Button (new Rect (Screen.width * .275f, Screen.height * .4f, 
-		                          Screen.width * .45f, Screen.height * .30f), "", startButton)) {
+		if (GUI.Button (new Rect (Screen.width * .3f, Screen.height * .7f, 
+		                          Screen.width * .4f, Screen.height * .25f), "", startButton)) {
 			loadLevel(Application.loadedLevel + 1);
 		}
 

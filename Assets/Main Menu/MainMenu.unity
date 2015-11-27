@@ -230,8 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundTexture: {fileID: 2800000, guid: e8d4b57b2ba0e41088058c6e185bd017, type: 3}
-  GUIplacementY: 0
-  GUIplacementX: 0
+  logo: {fileID: 2800000, guid: bd1c4969edaa541a98fcd5de256159db, type: 3}
   startButton:
     m_Name: 
     m_Normal:

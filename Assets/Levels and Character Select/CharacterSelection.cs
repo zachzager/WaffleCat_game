@@ -17,9 +17,9 @@ public class CharacterSelection : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		Debug.Log (playerChoices.Instance.player1);
-		Debug.Log (playerChoices.Instance.player2);
-		Debug.Log (gameObject.tag);
+//		Debug.Log (playerChoices.Instance.player1);
+//		Debug.Log (playerChoices.Instance.player2);
+//		Debug.Log (gameObject.tag);
 
 		models = new List<GameObject>();
 

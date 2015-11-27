@@ -1,23 +1,24 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Levels and Character Select/CharacterSelection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Main Menu/playerChoices.cs">
     <Files>
+      <File FileName="Assets/Main Menu/MainMenu.cs" Line="16" Column="30" />
       <File FileName="Assets/Levels and Character Select/keepInBounds.cs" Line="1" Column="1" />
-      <File FileName="Assets/Levels and Character Select/respawnOnCollision.cs" Line="19" Column="2" />
-      <File FileName="Assets/Levels and Character Select/playerBehavior.cs" Line="51" Column="73" />
-      <File FileName="Assets/Main Menu/MainMenu.cs" Line="11" Column="40" />
-      <File FileName="Assets/Levels and Character Select/CharacterSelection.cs" Line="61" Column="3" />
-      <File FileName="Assets/Levels and Character Select/characterMenu.cs" Line="58" Column="4" />
-      <File FileName="Assets/Main Menu/playerChoices.cs" Line="4" Column="43" />
+      <File FileName="Assets/Levels and Character Select/respawnOnCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets/Levels and Character Select/playerBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/Levels and Character Select/CharacterSelection.cs" Line="4" Column="3" />
+      <File FileName="Assets/Levels and Character Select/characterMenu.cs" Line="44" Column="3" />
+      <File FileName="Assets/Main Menu/playerChoices.cs" Line="17" Column="1" />
+      <File FileName="Assets/Levels and Character Select/levelSelect.cs" Line="46" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Levels and Character Select" expanded="True">
-              <Node name="CharacterSelection.cs" selected="True" />
+            <Node name="Levels and Character Select" expanded="True" />
+            <Node name="Main Menu" expanded="True">
+              <Node name="playerChoices.cs" selected="True" />
             </Node>
-            <Node name="Main Menu" expanded="True" />
           </Node>
         </State>
       </Pad>
