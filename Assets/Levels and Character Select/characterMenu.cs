@@ -6,8 +6,8 @@ using System.Collections;
 
 public class characterMenu : MonoBehaviour {
 	
-	public int selectionP1;
-	public int selectionP2;
+	//public int selectionP1;
+	//public int selectionP2;
 
 	public Texture backgroundTexture;
 	public float GUIplacementY;
@@ -48,13 +48,13 @@ public class characterMenu : MonoBehaviour {
 		
 		// player 1 selection
 		if (Application.loadedLevel == 1) {
-			selectionP1 = selection;
+			//selectionP1 = selection;
 			playerChoices.Instance.player1 = selection;
 		}
 		
 		// player 2 selection
 		if (Application.loadedLevel == 2) {
-			selectionP2 = selection;
+			//selectionP2 = selection;
 			playerChoices.Instance.player2 = selection;
 		}
 	}
