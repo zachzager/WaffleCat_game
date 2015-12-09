@@ -17,10 +17,6 @@ public class CharacterSelection : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-//		Debug.Log (playerChoices.Instance.player1);
-//		Debug.Log (playerChoices.Instance.player2);
-//		Debug.Log (gameObject.tag);
-
 		models = new List<GameObject>();
 
 		foreach(Transform t in transform) {
@@ -31,19 +27,6 @@ public class CharacterSelection : MonoBehaviour {
 		models[selectionIndex].SetActive(true);
 
 		selectCharacter ();
-	}
-
-	// checks for character choice (/user input for now)
-	void Update () {
-		/* if (Input.GetKeyDown (KeyCode.Z)) {
-			Select (0);
-		}
-		if (Input.GetKeyDown (KeyCode.X)) {
-			Select (1);
-		}
-		if (Input.GetKeyDown (KeyCode.C)) {
-			Select (2);
-		} */
 	}
 
 	// selects player model from list of characters

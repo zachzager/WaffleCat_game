@@ -29,20 +29,6 @@ public class MainMenu : MonoBehaviour {
 		                          Screen.width * .4f, Screen.height * .25f), "", startButton)) {
 			loadLevel(Application.loadedLevel + 1);
 		}
-
-		/*
-		// Single Player
-		if (GUI.Button (new Rect (Screen.width * .25f, Screen.height * .625f, 
-		                          Screen.width * .5f, Screen.height * .15f), "Single Player")) {
-			Debug.Log ("Clicked Single Player");
-		}
-
-		// Settings
-		if (GUI.Button (new Rect (Screen.width * .25f, Screen.height * .8f, 
-		                          Screen.width * .5f, Screen.height * .15f), "Settings")) {
-			Debug.Log ("Clicked Settings");
-		}
-		*/
 	}
 
 	// changes the scene

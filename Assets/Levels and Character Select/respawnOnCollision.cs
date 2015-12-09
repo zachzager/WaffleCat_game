@@ -32,7 +32,6 @@ public class respawnOnCollision : MonoBehaviour {
 		gameObject.transform.position = new Vector3(randCoordinates.x,randCoordinates.y);
 	}
 
-
 	// limits speed to zero
 	void limitSpeed() {
 		if(body.velocity.magnitude > maxSpeed) {
