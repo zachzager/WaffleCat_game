@@ -1,24 +1,26 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Levels and Character Select/characterMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/levelMenu.cs">
     <Files>
-      <File FileName="Assets/Levels and Character Select/characterMenu.cs" Line="36" Column="5" />
-      <File FileName="Assets/Main Menu/playerChoices.cs" Line="1" Column="1" />
-      <File FileName="Assets/Main Menu/MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Levels and Character Select/levelMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Levels and Character Select/keepInBounds.cs" Line="1" Column="1" />
-      <File FileName="Assets/Levels and Character Select/respawnOnCollision.cs" Line="1" Column="1" />
-      <File FileName="Assets/Levels and Character Select/playerBehavior.cs" Line="1" Column="1" />
-      <File FileName="Assets/Levels and Character Select/CharacterSelection.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/characterMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="32" Column="30" />
+      <File FileName="Assets/Scripts/CharacterSelection.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/keepInBounds.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/levelMenu.cs" Line="37" Column="19" />
+      <File FileName="Assets/Scripts/playerBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/playerCharacterChoices.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/playerChoices.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/playerNetworkBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/respawnOnCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/moveSync.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Levels and Character Select" expanded="True">
-              <Node name="characterMenu.cs" selected="True" />
+            <Node name="Scripts" expanded="True">
+              <Node name="levelMenu.cs" selected="True" />
             </Node>
-            <Node name="Main Menu" expanded="True" />
           </Node>
         </State>
       </Pad>

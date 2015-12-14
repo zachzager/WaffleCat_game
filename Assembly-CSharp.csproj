@@ -45,17 +45,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Levels and Character Select\CharacterSelection.cs" />
-     <Compile Include="Assets\Levels and Character Select\characterMenu.cs" />
-     <Compile Include="Assets\Levels and Character Select\keepInBounds.cs" />
-     <Compile Include="Assets\Levels and Character Select\levelMenu.cs" />
-     <Compile Include="Assets\Levels and Character Select\moveSync.cs" />
-     <Compile Include="Assets\Levels and Character Select\playerBehavior.cs" />
-     <Compile Include="Assets\Levels and Character Select\playerNetworkBehavior.cs" />
-     <Compile Include="Assets\Levels and Character Select\respawnOnCollision.cs" />
-     <Compile Include="Assets\Main Menu\MainMenu.cs" />
-     <Compile Include="Assets\Main Menu\playerChoices.cs" />
-     <Compile Include="Assets\playerCharacterChoices.cs" />
+     <Compile Include="Assets\Scripts\CharacterSelection.cs" />
+     <Compile Include="Assets\Scripts\InstructionsMenu.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\characterMenu.cs" />
+     <Compile Include="Assets\Scripts\keepInBounds.cs" />
+     <Compile Include="Assets\Scripts\levelMenu.cs" />
+     <Compile Include="Assets\Scripts\moveSync.cs" />
+     <Compile Include="Assets\Scripts\playerBehavior.cs" />
+     <Compile Include="Assets\Scripts\playerCharacterChoices.cs" />
+     <Compile Include="Assets\Scripts\playerChoices.cs" />
+     <Compile Include="Assets\Scripts\playerNetworkBehavior.cs" />
+     <Compile Include="Assets\Scripts\respawnOnCollision.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
